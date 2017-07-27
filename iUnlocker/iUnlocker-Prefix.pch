@@ -1,0 +1,26 @@
+//
+//  WPUnlocker-Prefix.pch
+//  WPUnlocker
+//
+//  Created by mufeng on 16/3/25.
+//  Copyright © 2016年 puckjs.com. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>  
+#endif
+
+#pragma mark ---- RGBA color functions
+#define RGBA(c,a) [UIColor colorWithRed:((float)((c&0xFF0000)>>16))/255.0 green:((float)((c&0xFF00)>>8))/255.0 blue:((float)(c&0xFF))/255.0 alpha:a]
+#define RGB(c) RGBA(c,1)
+
+#pragma mark ---- UIImage UIImageView functions
+#define IMG(name) [UIImage imageNamed:name]
+
+#pragma mark ---- Screen width and height functions
+#define SCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#pragma mark -- NSLog
+#define NSLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d\n%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);

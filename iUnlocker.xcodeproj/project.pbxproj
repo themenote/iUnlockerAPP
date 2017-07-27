@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440607D91D029DE200C39602 /* OauthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440607D81D029DE200C39602 /* OauthViewController.m */; };
+		440607DC1D029E0100C39602 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440607DB1D029E0100C39602 /* LoginViewController.m */; };
+		4429D2161D019F7400B0DD6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4429D2151D019F7400B0DD6C /* main.m */; };
+		4429D2211D019F7400B0DD6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2201D019F7400B0DD6C /* Assets.xcassets */; };
+		4429D24D1D01A01C00B0DD6C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4429D22E1D01A01C00B0DD6C /* RootViewController.m */; };
+		4429D24E1D01A01C00B0DD6C /* bgImageHighLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2301D01A01C00B0DD6C /* bgImageHighLight@2x.png */; };
+		4429D24F1D01A01C00B0DD6C /* blueHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2311D01A01C00B0DD6C /* blueHL@2x.png */; };
+		4429D2501D01A01C00B0DD6C /* btn_hov@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2321D01A01C00B0DD6C /* btn_hov@2x.png */; };
+		4429D2511D01A01C00B0DD6C /* cellLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2331D01A01C00B0DD6C /* cellLine@2x.png */; };
+		4429D2521D01A01C00B0DD6C /* connect_alert_mac@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2341D01A01C00B0DD6C /* connect_alert_mac@2x.png */; };
+		4429D2531D01A01C00B0DD6C /* connect_alert_mac@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2351D01A01C00B0DD6C /* connect_alert_mac@3x.png */; };
+		4429D2541D01A01C00B0DD6C /* connect_alert_mac_mute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2361D01A01C00B0DD6C /* connect_alert_mac_mute@2x.png */; };
+		4429D2551D01A01C00B0DD6C /* connect_alert_mac_mute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2371D01A01C00B0DD6C /* connect_alert_mac_mute@3x.png */; };
+		4429D2561D01A01C00B0DD6C /* greenHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2381D01A01C00B0DD6C /* greenHL@2x.png */; };
+		4429D2601D01A01C00B0DD6C /* scan_animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2421D01A01C00B0DD6C /* scan_animation.png */; };
+		4429D2611D01A01C00B0DD6C /* scan_animation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2431D01A01C00B0DD6C /* scan_animation@2x.png */; };
+		4429D2621D01A01C00B0DD6C /* scan_animation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2441D01A01C00B0DD6C /* scan_animation@3x.png */; };
+		4429D2641D01A01C00B0DD6C /* scan_frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2461D01A01C00B0DD6C /* scan_frame@2x.png */; };
+		4429D2651D01A01C00B0DD6C /* scan_frame@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2471D01A01C00B0DD6C /* scan_frame@3x.png */; };
+		4429D2671D01A01C00B0DD6C /* toolbar_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D2491D01A01C00B0DD6C /* toolbar_leftarrow@2x.png */; };
+		4429D2681D01A01C00B0DD6C /* toolbar_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4429D24A1D01A01C00B0DD6C /* toolbar_leftarrow@3x.png */; };
+		4429D26D1D01A21000B0DD6C /* iUnlockerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4429D26C1D01A21000B0DD6C /* iUnlockerAppDelegate.m */; };
+		4429D2701D01B2E600B0DD6C /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4429D26F1D01B2E600B0DD6C /* QRCodeViewController.m */; };
+		7E357C165D1792AC5423A5D0 /* libPods-iUnlocker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF473884A6F4E279F59674 /* libPods-iUnlocker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BAF473884A6F4E279F59674 /* libPods-iUnlocker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iUnlocker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440607D71D029DE200C39602 /* OauthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OauthViewController.h; sourceTree = "<group>"; };
+		440607D81D029DE200C39602 /* OauthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OauthViewController.m; sourceTree = "<group>"; };
+		440607DA1D029E0100C39602 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		440607DB1D029E0100C39602 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4429D2111D019F7400B0DD6C /* iUnlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iUnlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4429D2151D019F7400B0DD6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4429D2201D019F7400B0DD6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4429D2251D019F7400B0DD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4429D22D1D01A01C00B0DD6C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4429D22E1D01A01C00B0DD6C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4429D2301D01A01C00B0DD6C /* bgImageHighLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgImageHighLight@2x.png"; sourceTree = "<group>"; };
+		4429D2311D01A01C00B0DD6C /* blueHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueHL@2x.png"; sourceTree = "<group>"; };
+		4429D2321D01A01C00B0DD6C /* btn_hov@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_hov@2x.png"; sourceTree = "<group>"; };
+		4429D2331D01A01C00B0DD6C /* cellLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellLine@2x.png"; sourceTree = "<group>"; };
+		4429D2341D01A01C00B0DD6C /* connect_alert_mac@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect_alert_mac@2x.png"; sourceTree = "<group>"; };
+		4429D2351D01A01C00B0DD6C /* connect_alert_mac@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect_alert_mac@3x.png"; sourceTree = "<group>"; };
+		4429D2361D01A01C00B0DD6C /* connect_alert_mac_mute@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect_alert_mac_mute@2x.png"; sourceTree = "<group>"; };
+		4429D2371D01A01C00B0DD6C /* connect_alert_mac_mute@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect_alert_mac_mute@3x.png"; sourceTree = "<group>"; };
+		4429D2381D01A01C00B0DD6C /* greenHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenHL@2x.png"; sourceTree = "<group>"; };
+		4429D2421D01A01C00B0DD6C /* scan_animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_animation.png; sourceTree = "<group>"; };
+		4429D2431D01A01C00B0DD6C /* scan_animation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_animation@2x.png"; sourceTree = "<group>"; };
+		4429D2441D01A01C00B0DD6C /* scan_animation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_animation@3x.png"; sourceTree = "<group>"; };
+		4429D2461D01A01C00B0DD6C /* scan_frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_frame@2x.png"; sourceTree = "<group>"; };
+		4429D2471D01A01C00B0DD6C /* scan_frame@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_frame@3x.png"; sourceTree = "<group>"; };
+		4429D2491D01A01C00B0DD6C /* toolbar_leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_leftarrow@2x.png"; sourceTree = "<group>"; };
+		4429D24A1D01A01C00B0DD6C /* toolbar_leftarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_leftarrow@3x.png"; sourceTree = "<group>"; };
+		4429D26A1D01A07200B0DD6C /* iUnlocker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iUnlocker-Prefix.pch"; sourceTree = "<group>"; };
+		4429D26B1D01A21000B0DD6C /* iUnlockerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iUnlockerAppDelegate.h; sourceTree = "<group>"; };
+		4429D26C1D01A21000B0DD6C /* iUnlockerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iUnlockerAppDelegate.m; sourceTree = "<group>"; };
+		4429D26E1D01B2E600B0DD6C /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		4429D26F1D01B2E600B0DD6C /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		4429D2711D01C02200B0DD6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D3F391905EBA4BE21EC4E24E /* Pods-iUnlocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iUnlocker.release.xcconfig"; path = "Pods/Target Support Files/Pods-iUnlocker/Pods-iUnlocker.release.xcconfig"; sourceTree = "<group>"; };
+		D743E89C9EA07C0E7C610E4A /* Pods-iUnlocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iUnlocker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iUnlocker/Pods-iUnlocker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4429D20E1D019F7400B0DD6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E357C165D1792AC5423A5D0 /* libPods-iUnlocker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4429D2081D019F7400B0DD6C = {
+			isa = PBXGroup;
+			children = (
+				4429D2131D019F7400B0DD6C /* iUnlocker */,
+				4429D2121D019F7400B0DD6C /* Products */,
+				D2AD75C1B77B4E24F8A97BDD /* Frameworks */,
+				937C441C020BB9CCB3AACA8C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4429D2121D019F7400B0DD6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4429D2111D019F7400B0DD6C /* iUnlocker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4429D2131D019F7400B0DD6C /* iUnlocker */ = {
+			isa = PBXGroup;
+			children = (
+				4429D22C1D01A01C00B0DD6C /* Controllers */,
+				4429D22F1D01A01C00B0DD6C /* Resources */,
+				4429D2201D019F7400B0DD6C /* Assets.xcassets */,
+				4429D2141D019F7400B0DD6C /* Supporting Files */,
+			);
+			path = iUnlocker;
+			sourceTree = "<group>";
+		};
+		4429D2141D019F7400B0DD6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4429D26B1D01A21000B0DD6C /* iUnlockerAppDelegate.h */,
+				4429D26C1D01A21000B0DD6C /* iUnlockerAppDelegate.m */,
+				4429D26A1D01A07200B0DD6C /* iUnlocker-Prefix.pch */,
+				4429D2251D019F7400B0DD6C /* Info.plist */,
+				4429D2151D019F7400B0DD6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4429D22C1D01A01C00B0DD6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4429D22D1D01A01C00B0DD6C /* RootViewController.h */,
+				4429D22E1D01A01C00B0DD6C /* RootViewController.m */,
+				4429D26E1D01B2E600B0DD6C /* QRCodeViewController.h */,
+				4429D26F1D01B2E600B0DD6C /* QRCodeViewController.m */,
+				440607D71D029DE200C39602 /* OauthViewController.h */,
+				440607D81D029DE200C39602 /* OauthViewController.m */,
+				440607DA1D029E0100C39602 /* LoginViewController.h */,
+				440607DB1D029E0100C39602 /* LoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4429D22F1D01A01C00B0DD6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4429D2301D01A01C00B0DD6C /* bgImageHighLight@2x.png */,
+				4429D2311D01A01C00B0DD6C /* blueHL@2x.png */,
+				4429D2321D01A01C00B0DD6C /* btn_hov@2x.png */,
+				4429D2331D01A01C00B0DD6C /* cellLine@2x.png */,
+				4429D2341D01A01C00B0DD6C /* connect_alert_mac@2x.png */,
+				4429D2351D01A01C00B0DD6C /* connect_alert_mac@3x.png */,
+				4429D2361D01A01C00B0DD6C /* connect_alert_mac_mute@2x.png */,
+				4429D2371D01A01C00B0DD6C /* connect_alert_mac_mute@3x.png */,
+				4429D2381D01A01C00B0DD6C /* greenHL@2x.png */,
+				4429D2421D01A01C00B0DD6C /* scan_animation.png */,
+				4429D2431D01A01C00B0DD6C /* scan_animation@2x.png */,
+				4429D2441D01A01C00B0DD6C /* scan_animation@3x.png */,
+				4429D2461D01A01C00B0DD6C /* scan_frame@2x.png */,
+				4429D2471D01A01C00B0DD6C /* scan_frame@3x.png */,
+				4429D2491D01A01C00B0DD6C /* toolbar_leftarrow@2x.png */,
+				4429D24A1D01A01C00B0DD6C /* toolbar_leftarrow@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		937C441C020BB9CCB3AACA8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D743E89C9EA07C0E7C610E4A /* Pods-iUnlocker.debug.xcconfig */,
+				D3F391905EBA4BE21EC4E24E /* Pods-iUnlocker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2AD75C1B77B4E24F8A97BDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4429D2711D01C02200B0DD6C /* AVFoundation.framework */,
+				3BAF473884A6F4E279F59674 /* libPods-iUnlocker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4429D2101D019F7400B0DD6C /* iUnlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4429D2281D019F7400B0DD6C /* Build configuration list for PBXNativeTarget "iUnlocker" */;
+			buildPhases = (
+				C19F8E61E35BA2EAF1EE1CC1 /* [CP] Check Pods Manifest.lock */,
+				4429D20D1D019F7400B0DD6C /* Sources */,
+				4429D20E1D019F7400B0DD6C /* Frameworks */,
+				4429D20F1D019F7400B0DD6C /* Resources */,
+				234C245DBD163A01545D47C0 /* [CP] Embed Pods Frameworks */,
+				4CD2BA6E1F02141FE41A7426 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iUnlocker;
+			productName = iUnlocker;
+			productReference = 4429D2111D019F7400B0DD6C /* iUnlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4429D2091D019F7400B0DD6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = puckjs.com;
+				TargetAttributes = {
+					4429D2101D019F7400B0DD6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8K2ACMWJKJ;
+					};
+				};
+			};
+			buildConfigurationList = 4429D20C1D019F7400B0DD6C /* Build configuration list for PBXProject "iUnlocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4429D2081D019F7400B0DD6C;
+			productRefGroup = 4429D2121D019F7400B0DD6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4429D2101D019F7400B0DD6C /* iUnlocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4429D20F1D019F7400B0DD6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4429D2611D01A01C00B0DD6C /* scan_animation@2x.png in Resources */,
+				4429D2561D01A01C00B0DD6C /* greenHL@2x.png in Resources */,
+				4429D2531D01A01C00B0DD6C /* connect_alert_mac@3x.png in Resources */,
+				4429D24E1D01A01C00B0DD6C /* bgImageHighLight@2x.png in Resources */,
+				4429D2641D01A01C00B0DD6C /* scan_frame@2x.png in Resources */,
+				4429D2651D01A01C00B0DD6C /* scan_frame@3x.png in Resources */,
+				4429D2501D01A01C00B0DD6C /* btn_hov@2x.png in Resources */,
+				4429D2511D01A01C00B0DD6C /* cellLine@2x.png in Resources */,
+				4429D2211D019F7400B0DD6C /* Assets.xcassets in Resources */,
+				4429D2551D01A01C00B0DD6C /* connect_alert_mac_mute@3x.png in Resources */,
+				4429D2681D01A01C00B0DD6C /* toolbar_leftarrow@3x.png in Resources */,
+				4429D2601D01A01C00B0DD6C /* scan_animation.png in Resources */,
+				4429D2521D01A01C00B0DD6C /* connect_alert_mac@2x.png in Resources */,
+				4429D24F1D01A01C00B0DD6C /* blueHL@2x.png in Resources */,
+				4429D2541D01A01C00B0DD6C /* connect_alert_mac_mute@2x.png in Resources */,
+				4429D2621D01A01C00B0DD6C /* scan_animation@3x.png in Resources */,
+				4429D2671D01A01C00B0DD6C /* toolbar_leftarrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		234C245DBD163A01545D47C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iUnlocker/Pods-iUnlocker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CD2BA6E1F02141FE41A7426 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iUnlocker/Pods-iUnlocker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19F8E61E35BA2EAF1EE1CC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4429D20D1D019F7400B0DD6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4429D24D1D01A01C00B0DD6C /* RootViewController.m in Sources */,
+				440607D91D029DE200C39602 /* OauthViewController.m in Sources */,
+				4429D26D1D01A21000B0DD6C /* iUnlockerAppDelegate.m in Sources */,
+				440607DC1D029E0100C39602 /* LoginViewController.m in Sources */,
+				4429D2701D01B2E600B0DD6C /* QRCodeViewController.m in Sources */,
+				4429D2161D019F7400B0DD6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4429D2261D019F7400B0DD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4429D2271D019F7400B0DD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4429D2291D019F7400B0DD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D743E89C9EA07C0E7C610E4A /* Pods-iUnlocker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8K2ACMWJKJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "iUnlocker/iUnlocker-Prefix.pch";
+				INFOPLIST_FILE = iUnlocker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puckjs.app.iunlocker;
+				PRODUCT_NAME = iUnlocker;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4429D22A1D019F7400B0DD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F391905EBA4BE21EC4E24E /* Pods-iUnlocker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8K2ACMWJKJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "iUnlocker/iUnlocker-Prefix.pch";
+				INFOPLIST_FILE = iUnlocker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puckjs.app.iunlocker;
+				PRODUCT_NAME = iUnlocker;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4429D20C1D019F7400B0DD6C /* Build configuration list for PBXProject "iUnlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4429D2261D019F7400B0DD6C /* Debug */,
+				4429D2271D019F7400B0DD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4429D2281D019F7400B0DD6C /* Build configuration list for PBXNativeTarget "iUnlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4429D2291D019F7400B0DD6C /* Debug */,
+				4429D22A1D019F7400B0DD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4429D2091D019F7400B0DD6C /* Project object */;
+}
